@@ -24,6 +24,12 @@ An independent health and wellness publisher about looking and feeling great thr
 - **No links to brands for now.** Brand names appear as plain text. Never add affiliate or tracking links.
 - Every page keeps the "Talk to a doctor first" callout and the Sources list. Listicles keep the disclosure note.
 
+## Images
+- Everyday images come from Unsplash (free commercial license). Signature visuals (e.g. home hero) are made by Jordan in Higgsfield and added manually.
+- Lifestyle photos of healthy, confident, real-looking people living well. Warm, natural light fits the site's look.
+- Never use before-and-after shots, images that look like real patient results, pills or syringes as hero images, or anything sexual or suggestive.
+- Every image gets descriptive `alt` text. Credit Unsplash photographers in a small caption when practical.
+
 ## Using Health Geek (healthgeekreviews.com) for inspiration
 - Topics and titles only, plus a short format note: article type, who it's for, rough length, and which brands/products it features (market intel only).
 - Never copy, summarize, or mirror its text, headings, section order, or rankings. The writer never sees Health Geek content.
