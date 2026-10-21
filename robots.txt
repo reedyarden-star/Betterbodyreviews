@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /_templates/
+
+Sitemap: https://betterbodyreviews.com/sitemap.xml

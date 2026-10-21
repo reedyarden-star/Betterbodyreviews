@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}} | Better Body Reviews</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<link rel="canonical" href="https://betterbodyreviews.com/{{CATEGORY_SLUG}}/{{SLUG}}/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Better Body Reviews">
+<meta property="og:title" content="{{TITLE}} | Better Body Reviews">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="https://betterbodyreviews.com/{{CATEGORY_SLUG}}/{{SLUG}}/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="wrap">
+<a class="logo" href="/"><span class="logo-mark" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16l5-5 4 4 7-8"/><path d="M15 7h5v5"/></svg></span><span>Better Body <em>Reviews</em></span></a>
+<nav class="nav" aria-label="Main">
+<a href="/sexual-health/">Sexual Health</a>
+<a href="/weight-loss/">Weight Loss</a>
+<a href="/hair/">Hair</a>
+<a href="/testosterone/">Testosterone</a>
+<a href="/how-we-review/">How We Review</a>
+</nav>
+</div>
+</header>
+<main>
+<article class="narrow">
+<header class="article-head">
+<a class="pill" href="/{{CATEGORY_SLUG}}/">{{CATEGORY_NAME}}</a>
+<h1>{{TITLE}}</h1>
+<p class="dek">{{DEK}}</p>
+<div class="byline"><span>By <strong>Better Body Reviews Team</strong></span><span>Updated {{DATE}}</span><span>Prices checked {{PRICES_CHECKED_DATE}}</span></div>
+<p class="disclosure-note">We may earn money from some brands on this page. It never changes our rankings. <a href="/advertising-disclosure/">Learn more</a>.</p>
+</header>
+<div class="prose">
+<div class="quick-picks">
+<h3>Our quick picks</h3>
+<ol>
+{{QUICK_PICKS_LI}}
+<!-- each: <li><strong>Brand</strong> <span>Best for ...</span></li> -->
+</ol>
+</div>
+{{INTRO_HTML}}
+
+<!-- REPEAT ONE BLOCK PER BRAND -->
+<section class="pick" id="{{BRAND_ID}}">
+<div class="pick-top"><span class="pick-rank">#{{RANK}}</span></div>
+<h3>{{BRAND_NAME}}</h3>
+<span class="best-for">Best for {{BEST_FOR}}</span>
+<p>{{BRAND_SUMMARY}}</p>
+<div class="facts">
+<div class="fact"><small>Starting price</small><b>{{PRICE}}</b></div>
+<div class="fact"><small>Doctor visit</small><b>{{CONSULT}}</b></div>
+<div class="fact"><small>Options</small><b>{{OPTIONS}}</b></div>
+<div class="fact"><small>Delivery</small><b>{{DELIVERY}}</b></div>
+</div>
+<div class="proscons">
+<div><h4>What we like</h4><ul>{{PROS_LI}}</ul></div>
+<div><h4>Watch out for</h4><ul>{{CONS_LI}}</ul></div>
+</div>
+<p class="checked">Details checked on the brand's website on {{CHECKED_DATE}}. Prices can change.</p>
+</section>
+<!-- END REPEAT -->
+
+<h2>Side-by-side</h2>
+<div class="table-scroll">
+<table class="compare">
+<thead><tr><th>Brand</th><th>Best for</th><th>Starting price</th><th>Doctor visit</th></tr></thead>
+<tbody>
+{{COMPARE_ROWS}}
+</tbody>
+</table>
+</div>
+
+<h2>How we chose</h2>
+<p>We compared each brand on price, care from licensed clinicians, treatment options, convenience, and transparency. <a href="/how-we-review/">Read our full method</a>.</p>
+
+{{FAQ_HTML}}
+
+<div class="callout safety"><h4>Talk to a doctor first</h4><p>This page is for general information, not medical advice. Prescription treatments are only available if a licensed clinician decides they're right for you.</p></div>
+<h2>Sources</h2>
+<ol class="sources">
+{{SOURCES_LI}}
+</ol>
+</div>
+</article>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<div class="cols">
+<div>
+<a class="logo" href="/"><span class="logo-mark" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16l5-5 4 4 7-8"/><path d="M15 7h5v5"/></svg></span><span>Better Body <em>Reviews</em></span></a>
+<p>Straight talk on looking and feeling great through science. No fluff, no hype.</p>
+</div>
+<div>
+<h4>Topics</h4>
+<a href="/sexual-health/">Sexual Health</a>
+<a href="/weight-loss/">Weight Loss</a>
+<a href="/hair/">Hair</a>
+<a href="/testosterone/">Testosterone</a>
+<a href="/skin/">Skin</a>
+<a href="/energy-sleep/">Energy & Sleep</a>
+</div>
+<div>
+<h4>About</h4>
+<a href="/about/">About us</a>
+<a href="/how-we-review/">How we review</a>
+<a href="/advertising-disclosure/">Advertising disclosure</a>
+<a href="/medical-disclaimer/">Medical disclaimer</a>
+<a href="/contact/">Contact</a>
+</div>
+<div>
+<h4>Legal</h4>
+<a href="/privacy/">Privacy policy</a>
+<a href="/terms/">Terms of service</a>
+</div>
+</div>
+<div class="fine">
+<p>Better Body Reviews is for general information only and is not medical advice. Always talk to a licensed doctor before starting, stopping, or changing any treatment.</p>
+<p>© 2026 Better Body Reviews, operated by ClickTitans LLC.</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
